@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/*-------------------------
+  初期値
+-------------------------*/
+
+
+
+
+body {
+  padding-top: 100px;
+  --key-color: #8e44ad;
+  --sub-color: #7e349d;
+  padding-top: 71px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 58px;
+  }
+}
+
+.btn-primary {
+  background-color: var(--key-color);
+  border: 1px solid var(--key-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--sub-color);
+  border: 1px solid var(--sub-color);
+}
+
+footer a {
+  color: #8e44ad;
+}
+
+footer a:hover {
+  color: #7e349d;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+/*-------------------------
+  トップ
+-------------------------*/
+
+.topics p {
+  text-align: justify;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 8;
+}
